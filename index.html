@@ -40,22 +40,74 @@
     </style>
   </head>
   <body>
-    <H2>HELLO</H2>
-    <!--
+    <header>
 
-      LIST ANY CITATIONS HERE
+      <img src="https://cdn.kobo.com/book-images/2cc98833-cc2a-44d3-b08e-e33b31172c07/1200/1200/False/the-kite-runner-1.jpg" alt="The Kite Runner Logo">
+        <p>Logo image source: <a href="https://cdn.kobo.com/book-images/2cc98833-cc2a-44d3-b08e-e33b31172c07/1200/1200/False/the-kite-runner-1.jpg">Kobo</a></p>
+        <h1>The Kite Runner</h1>
+        <h2>By Khaled Hosseini</h2>
+    </header>
 
-        * A
-        * B
+    <nav>
+        <ul>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#author">Author</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#purchase">Purchase</a></li>
+        </ul>
+    </nav>
 
-    -->
+    <main>
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>
+              "The Kite Runner" is a deeply moving novel written by Khaled Hosseini. It tells the story of Amir, a young boy living in Kabul, and his intricate relationship with his friend Hassan. The backdrop of the narrative is the turbulent history of Afghanistan, spanning from the 1970s, through the fall of the Afghan monarchy, the Soviet invasion, to the rise of the Taliban.
+The novel delves into themes such as guilt, redemption, and the enduring bonds of friendship. As Amir sets out on a journey to make amends for his past mistakes, readers are taken on an emotional ride through the streets of Kabul and beyond. "The Kite Runner" is a heart-wrenching tale of love, betrayal, and the search for forgiveness that will deeply resonate with anyone who reads it.
+ </p>
+        </section>
+        <section id="author">
+            <h2>Author</h2>
+            <p>Khaled Hosseini is the author of "The Kite Runner."</p>
+        </section>
 
-    <!--
+        <section id="reviews">
+            <h2>Reviews</h2>
+            <p>Read what others are saying about the book.</p>
+        </section>
 
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+        <section id="purchase">
+            <h2>Purchase</h2>
+            <p>Get your copy of "The Kite Runner" today!</p>
+        </section>
+    </main>
 
-    -->
-
-    <h1>Assignment 01 - To Be Completed</h1>
-  </body>
+    <section>
+      <form>
+        <fieldset>
+          <legend>Personal Information:</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+  
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" />
+  
+          <label for="ward">Status:</label>
+          <select id="ward" name="ward" required>
+            <option value="--please choose an option--">--please choose an option--</option>
+            <option value="student">Student</option>
+            <option value="Worker">Worker</option>
+            <option value="Retired">Retired</option>
+          </select>
+  
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </form>
+    </section>
+  
+    <footer>
+        <p>&copy; 2023 Kobo </p>
+    </footer>
+</body>
 </html>
